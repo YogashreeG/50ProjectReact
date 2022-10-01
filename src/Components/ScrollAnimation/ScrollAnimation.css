@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(225, 225, 231);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.h1 {
+    margin: 10px;
+
+}
+
+.box {
+    background-color: steelblue;
+    color: #fff;
+    display: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgb(225, 225, 231);
+    transform: translateX(200px);
+    transition: tranform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-200%);
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
+.box h2 {
+    font-size: 45px;
+}

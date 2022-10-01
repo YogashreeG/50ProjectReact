@@ -1,0 +1,46 @@
+body {
+    background-image: url("../Loading/interviewdesk.png");
+
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.tag-container {
+    min-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px
+}
+
+.tag {
+    display: flex;
+    padding: 3px;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    height: 25px;
+    align-items: center;
+    margin: 5px 5px 0px 0px;
+    background-color: fuchsia;
+}
+
+.tag-container input {
+    border: none;
+    flex: 1;
+    outline: none;
+    padding: 6;
+    background-color: yellowgreen;
+}
+
+.tag span {
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 4%;
+}

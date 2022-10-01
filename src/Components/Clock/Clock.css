@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: url('');
+}
+
+.card {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}

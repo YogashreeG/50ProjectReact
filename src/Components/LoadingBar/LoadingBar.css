@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    color: rgb(228, 30, 30);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+}
+
+.card {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.bar {
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #eee;
+    align-items: center;
+}
+
+.barPercent {
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: -1px 0 #555, 0 1px #555, 0 -1px #555;
+}
+
+.btn {
+    align-items: center;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    margin: 5rem auto;
+    outline: none;
+    width: 100px;
+    transition: box-shadow 0.5s;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    background-color: #9370c2;
+}
+
+.btn:hover {
+    -webkit-box-shadow: inset 100px 0 0 0 #7c54d1;
+    box-shadow: inset 100px 0 0 0 #7c54d1;
+}
